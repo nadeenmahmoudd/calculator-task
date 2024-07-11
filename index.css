@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-operator, .btn-equals, .btn-clear {
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.btn-operator.selected {
+    background-color: #176bc48c;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3546a1;
+    color: #fff;
+}
+
+#input1, #input2, #result {
+    height: 60px;
+    font-size: 1.5em;
+}
+
+.number-pad .btn {
+    font-size: 1.5em;
+    height: 60px;
+    margin: 5px 0;
+}
